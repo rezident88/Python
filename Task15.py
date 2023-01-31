@@ -19,6 +19,6 @@ for i in range(n):
     print(numb, end=' ')
     if numb > max1:
         max = numb
-    if numb < min1:
+    elif numb < min1:
         min1 = numb
 print(f'\n {min1} {max1}')    
